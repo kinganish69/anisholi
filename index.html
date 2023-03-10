@@ -1,405 +1,205 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+  background-color: #f1f1f1;
+  padding-top: 70px;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="style.css">
-  <!-- adsense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7529088673869424"
-    crossorigin="anonymous"></script>
-  <title>Welcome to My Site</title>
-</head>
+.navbar a:hover {
+  background-color: #5cacc0;
+  color: white;
+}
 
-<!-- <body style="background-color: rgb(207, 206, 204);"> -->
+/* for 3d text */
+.h1{
+  /* transform: translate(50%,-50%); */
+    text-transform: uppercase;
+    font-family: verdana;
+    /* font-size: 12em; */
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
 
-<body>
-
-
-  <div class="parent container-lg"></div>
-  <!-- for navigation bar -->
-  <nav class="fixed-top bg-dark navbar navbar-dark navbar-expand-sm rounded-3 m-2 p-2">
-    <h2 style="color: white;" data-text="AnishOli">AnishOli</h2>
-
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="pics/logo.jpg" class="company-logo" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Academics</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About me</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Blogs
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Computer Systems</a></li>
-              <li><a class="dropdown-item" href="#">Coding</a></li>
-              <li><a class="dropdown-item" href="#">Careers</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Me</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+}
 
 
-  <br>
+.color1 {
 
-  <!-- sliding images -->
-  <div class="container">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://source.unsplash.com/1400x400/?code" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://source.unsplash.com/1400x400/?technology" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://source.unsplash.com/1400x400/?blog" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
+  /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(to bottom right, rgb(29, 128, 185), rgb(191, 191, 191)); */
+  background-color: #d0e2ec;
+}
 
-  <div class="container">
-    <h1 class="h1 text-center">Hi everyone. This is me, Anish Oli and I am a freelancer Web Designer. </h1>
-  </div>
+.color2 {
+  background-color: #ffffff;
+}
 
-  <!-- html -->
-  <div class="container container-lg">
-    <div class="row">
-      <div class="col-12 col-sm-3">
-        <div class="text-center card">
-          <img src="https://source.unsplash.com/300x300/?html" class="rounded-circle card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">HTML</h5>
-            <p class="card-text">HTML means HyperText Markup Language</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-3">
-        <div class="text-center card">
-          <img src="https://source.unsplash.com/300x300/?css" class="rounded-circle card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">CSS</h5>
-            <p class="card-text">CSS Means Cascading Style Sheets</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-3">
-        <div class="text-center card">
-          <img src="https://source.unsplash.com/300x300/?javascript" class="rounded-circle card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">JavaScript</h5>
-            <p class="card-text">I don't know about this. Search yourself</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-3">
-        <div class="text-center card">
-          <img src="https://source.unsplash.com/300x300/?java" class="rounded-circle card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Python</h5>
-            <p class="card-text">This is not snake. This is a coding language</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+.height200 {
+  height: 200px;
+  overflow-y: hidden;
+  /* overflow-x: hidden; */
+}
 
-  <!-- for title  -->
-  <div class="container mt-4">
+.card{
+  height: 100%;
+  filter: drop-shadow(1rem 1rem 0.75rem rgb(101, 152, 207));
+}
 
-    <div class="row">
-      <div class="col-6">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates minus culpa
-          recusandae
-          nam libero et praesentium incidunt cum aliquid, corporis quod voluptas ducimus repellat nobis
-          delectus animi laborum maxime.</p>
-        <button class="btn btn-success">Read More</button>
-      </div>
-      <div class="col-6">
-        <div class="container">
+.card:hover{
+  cursor: pointer;
+}
+
+/* For Shadow  */
+.dropshadow{
+  filter: drop-shadow(20px 20px 20px rgb(116, 116, 116));
+}
 
 
-          <div class="box1"> <img src="images/socialmedia1.jpg" alt="">
-            <h3 class="title">Anish Oli</h3>
-            <ul class="icon">
-              <li><a href="https://www.facebook.com/king69.official"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li><a href="https://twitter.com/kingop22321"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/king_op69/"><i class="fa fa-instagram"></i></a>
-              </li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            </ul>
-          </div>
+.justify {
+  text-align: justify;
+  padding: 10px;
 
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- for content containers  -->
-  <div class="container text-center">
-    <div class="row border rounded-4 my-2 color1">
-      <div class="col-12 col-lg-9">
-        <p class="height200 justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil!
-          Iste
-          molestias, exercitationem culpa rerum odio dolorem magni quidem consequuntur voluptatem
-          doloribus
-          alias cumque reprehenderit neque enim officia et aliquam. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Aliquam recusandae, vel ipsam numquam a deserunt quia voluptatum doloribus,
-          eum
-          unde delectus cumque ipsum quae, maiores similique odio ullam perspiciatis aspernatur.Lorem
-          ipsum
-          dolor sit amet, consectetur adipisicing elit. Sit, nihil! Iste molestias, exercitationem culpa
-          rerum
-          odio dolorem magni quidem consequuntur voluptatem doloribus alias cumque reprehenderit neque
-          enim
-          officia et aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam recusandae,
-          vel
-          ipsam numquam a deserunt quia voluptatum doloribus, eum unde delectus cumque ipsum quae, maiores
-          similique odio ullam perspiciatis aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Sit, nihil! Iste molestias, exercitationem culpa rerum odio dolorem magni quidem
-          consequuntur
-          voluptatem doloribus alias cumque reprehenderit neque enim officia et aliquam. Lorem ipsum dolor
-          sit
-          amet consectetur adipisicing elit. Aliquam recusandae, vel ipsam numquam a deserunt quia
-          voluptatum
-          doloribus, eum unde delectus cumque ipsum quae, maiores similique odio ullam perspiciatis
-          aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil! Iste molestias,
-          exercitationem culpa rerum odio dolorem magni quidem consequuntur voluptatem doloribus alias
-          cumque
-          reprehenderit neque enim officia et aliquam. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Aliquam recusandae, vel ipsam numquam a deserunt quia voluptatum doloribus, eum unde
-          delectus
-          cumque ipsum quae, maiores similique odio ullam perspiciatis aspernatur.</p>
-        <button class="btn btn-outline-primary"> Read More</button>
-
-      </div>
-      <div class="col-12 col-lg-3">
-        <img class="rounded-circle" src="images/second.jpg" width="200px" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class="container text-center">
-    <div class="row border rounded-4 my-2 color2">
-      <div class="col-12 col-lg-3">
-        <img class="rounded-circle" src="images/second.jpg" width="200px" alt="">
-      </div>
-      <div class="col-12 col-lg-9">
-        <p class="height200 justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil!
-          Iste
-          molestias, exercitationem culpa rerum odio dolorem magni quidem consequuntur voluptatem
-          doloribus
-          alias cumque reprehenderit neque enim officia et aliquam. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Aliquam recusandae, vel ipsam numquam a deserunt quia voluptatum doloribus,
-          eum
-          unde delectus cumque ipsum quae, maiores similique odio ullam perspiciatis aspernatur.Lorem
-          ipsum
-          dolor sit amet, consectetur adipisicing elit. Sit, nihil! Iste molestias, exercitationem culpa
-          rerum
-          odio dolorem magni quidem consequuntur voluptatem doloribus alias cumque reprehenderit neque
-          enim
-          officia et aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam recusandae,
-          vel
-          ipsam numquam a deserunt quia voluptatum doloribus, eum unde delectus cumque ipsum quae, maiores
-          similique odio ullam perspiciatis aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Sit, nihil! Iste molestias, exercitationem culpa rerum odio dolorem magni quidem
-          consequuntur
-          voluptatem doloribus alias cumque reprehenderit neque enim officia et aliquam. Lorem ipsum dolor
-          sit
-          amet consectetur adipisicing elit. Aliquam recusandae, vel ipsam numquam a deserunt quia
-          voluptatum
-          doloribus, eum unde delectus cumque ipsum quae, maiores similique odio ullam perspiciatis
-          aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil! Iste molestias,
-          exercitationem culpa rerum odio dolorem magni quidem consequuntur voluptatem doloribus alias
-          cumque
-          reprehenderit neque enim officia et aliquam. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Aliquam recusandae, vel ipsam numquam a deserunt quia voluptatum doloribus, eum unde
-          delectus
-          cumque ipsum quae, maiores similique odio ullam perspiciatis aspernatur.</p>
-        <button class="btn btn-outline-primary"> Read More</button>
-
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container text-center">
-    <div class="row border rounded-4 my-2 color1">
-      <div class="col-12 col-lg-9">
-        <p class="height200 justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil!
-          Iste
-          molestias, exercitationem culpa rerum odio dolorem magni quidem consequuntur voluptatem
-          doloribus
-          alias cumque reprehenderit neque enim officia et aliquam. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Aliquam recusandae, vel ipsam numquam a deserunt quia voluptatum doloribus,
-          eum
-          unde delectus cumque ipsum quae, maiores similique odio ullam perspiciatis aspernatur.Lorem
-          ipsum
-          dolor sit amet, consectetur adipisicing elit. Sit, nihil! Iste molestias, exercitationem culpa
-          rerum
-          odio dolorem magni quidem consequuntur voluptatem doloribus alias cumque reprehenderit neque
-          enim
-          officia et aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam recusandae,
-          vel
-          ipsam numquam a deserunt quia voluptatum doloribus, eum unde delectus cumque ipsum quae, maiores
-          similique odio ullam perspiciatis aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Sit, nihil! Iste molestias, exercitationem culpa rerum odio dolorem magni quidem
-          consequuntur
-          voluptatem doloribus alias cumque reprehenderit neque enim officia et aliquam. Lorem ipsum dolor
-          sit
-          amet consectetur adipisicing elit. Aliquam recusandae, vel ipsam numquam a deserunt quia
-          voluptatum
-          doloribus, eum unde delectus cumque ipsum quae, maiores similique odio ullam perspiciatis
-          aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil! Iste molestias,
-          exercitationem culpa rerum odio dolorem magni quidem consequuntur voluptatem doloribus alias
-          cumque
-          reprehenderit neque enim officia et aliquam. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Aliquam recusandae, vel ipsam numquam a deserunt quia voluptatum doloribus, eum unde
-          delectus
-          cumque ipsum quae, maiores similique odio ullam perspiciatis aspernatur.</p>
-        <button class="btn btn-outline-primary"> Read More</button>
-
-      </div>
-      <div class="col-12 col-lg-3">
-        <img class="rounded-circle" src="images/second.jpg" width="200px" alt="">
-      </div>
-    </div>
-  </div>
-
-
-  <div class="btn-toolbar d-md-flex justify-content-md-end" role="toolbar" aria-label="Toolbar with button groups">
-    <div class="btn-group me-2" role="group" aria-label="First group">
-      <button type="button" class="btn btn-primary">1</button>
-      <button type="button" class="btn btn-primary">2</button>
-      <button type="button" class="btn btn-primary">3</button>
-      <button type="button" class="btn btn-primary">4</button>
-    </div>
-  </div>
+}
 
 
 
 
-  <!-- for footer -->
+/* for social media card */
 
-  <footer class="text-center text-white" style="background-color: #caced1;">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Images -->
-      <section class="">
-        <div class="row">
-          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp" class="w-100" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp" class="w-100" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp" class="w-100" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp" class="w-100" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp" class="w-100" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Section: Images -->
-    </div>
-    <!-- Grid container -->
+::selection {
+  color: #fff;
+  background: #1cc7d0;
+}
 
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://anisholi.com.np/">Anisholi.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+.wrapper {
+  height: 400px;
+  width: 320px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.wrapper .card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  transform: translateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.wrapper:hover>.front-face {
+  transform: rotateY(-180deg);
+}
+
+.wrapper .card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.wrapper .back-face {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+
+.wrapper:hover>.back-face {
+  transform: rotateY(0deg);
+}
+
+.wrapper .back-face img {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+
+.wrapper .back-face .info {
+  text-align: center;
+}
+
+.back-face .info .title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.back-face ul {
+  display: flex;
+}
+
+.back-face ul a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  margin: 0 5px;
+  line-height: 38px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  transition: all 0.5s ease;
+}
+
+.back-face ul a:hover {
+  color: #1cc7d0;
+  border-color: #1cc7d0;
+  background: linear-gradient(375deg, transparent, transparent);
+}
 
 
-</body>
 
+/* for header sliding animation name */
+h2{
+  position:relative;
+  font-size:2rem;
+  font-family:sans-serif;
+  -webkit-text-stroke:0.1vw #383d52;
+  text-transform:uppercase;
+}
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+h2::before{
+  content: attr(data-text);
+  position:absolute;
+  top:0;
+  left:0;
+  width:0%;
+  height:100%;
+  color:#4fed51;
 
-</html>
+  -webkit-text-stroke:0vw #383d52;
+  border-right:2px solid #4fed51;
+  overflow:hidden;
+  /* transition:animate 6s linear infinite; */
+   animation:animate 6s linear infinite;
+
+}
+@keyframes animate{
+  0%{
+  width:0;
+}
+70%{
+  width:100%;
+}
+}
