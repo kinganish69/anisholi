@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+anisholi50.wixsite.com	TRUE	/anish-oli	FALSE	1999999999	svSession	ef7200cb3e0fd7f8dc014081e642d586418389b8dd13096f249c3677c3fd6016920d4dd8115bc5aef9b3fd274c5803021e60994d53964e647acf431e4f798bcd9c16f0929490276922eafb8df7670448137f08fdbd2d774ade9529eceed893cca52c8fea1ce136d714e24048d084c8b5f3e9ce32b47fdf3355ee9c1dca11fe27e16069eb3a178c24a3f6900ac767e15b
+anisholi50.wixsite.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	1680598407|KYyQc5YdcNgN
+anisholi50.wixsite.com	TRUE	/	FALSE	1999999999	fedops.logger.defaultOverrides	%7B%22paramsOverridesForApp%22%3A%7B%22social-blog%22%3A%7B%22is_rollout%22%3Atrue%7D%2C%22wix-code-viewer-app%22%3A%7B%22is_rollout%22%3Atrue%7D%2C%22SeoSidebarLazyComponent%22%3A%7B%22is_rollout%22%3Atrue%7D%7D%7D
+anisholi50.wixsite.com	TRUE	/	FALSE	1999999999	hs	642583947
+anisholi50.wixsite.com	TRUE	/	FALSE	1999999999	SameSite	None
+anisholi50.wixsite.com	TRUE	/	FALSE	1999999999	ssr-caching	cache#desc=miss#varnish=miss#dc#desc=ase1
+
